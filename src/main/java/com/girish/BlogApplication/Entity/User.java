@@ -28,5 +28,7 @@ public class User {
 	@Column(name="User_Password")
 	private String password;
 	
+	@Column(name=" About ")
+	private String About;
 
 }
