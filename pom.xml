@@ -38,6 +38,12 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
+	<dependency>
+   <groupId>org.hibernate.validator</groupId>
+   <artifactId>hibernate-validator</artifactId>
+   </dependency>
+		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -71,5 +77,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
